@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  margin: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#cart {
+  float: right;
+  width: 30%;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+#total {
+  font-weight: bold;
+}
